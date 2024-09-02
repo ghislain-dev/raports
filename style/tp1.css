@@ -1,0 +1,260 @@
+.navig{
+    width: 100%;
+    height:   50px;
+    background-color: darkkhaki;
+    display: flex;
+    border-radius: 20px;
+}
+ul{
+   
+    margin-top: 10px;
+    display: flex;
+}
+.menu
+{
+    margin-left: 70%;
+    display: flex;
+}
+li
+{
+    margin: 10px;
+    display: flex;
+}
+.section
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../background/Screenshot_20231023-171906_Chrome.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.un{
+    width: 70%;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 10px;
+    display: flex;
+    background: transparent;
+}
+.unun{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(209, 45, 45);
+    
+    padding: 10px;
+    background: transparent;
+}
+.undeux{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(211, 200, 200);
+    background: transparent;
+    padding: 10px;
+}
+.untrois{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(8, 177, 84);
+    background: transparent;
+    
+    padding: 10px;
+    border-color: blanchedalmond;
+    border: 30px;
+    border-radius:20px;
+    border-color: blanchedalmond;
+}
+.unquatre{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(177, 166, 8);
+    padding: 10px;
+    background: transparent;
+}
+.ununhaut{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(20, 6, 6);
+    margin-top: -22px;
+    background: transparent;
+    
+}
+.undeuxhaut{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(238, 11, 11);
+    background: transparent;
+}
+.untroishaut{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(156, 142, 142);
+    background: transparent;
+}
+.unquatrehaut
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(241, 21, 21);
+    background: transparent;
+}
+.ununbas{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(110, 103, 103);
+    
+    
+}
+.undeuxbas{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(231, 226, 226);
+   
+}
+.untroisbas{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(134, 17, 17);
+}
+.unquatrebas
+{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(12, 11, 11);
+}
+img{
+    width: 100%;
+    height: 240px;
+}
+h3{
+    border: 15px;
+    color: coral;
+    border-color: bisque;
+}
+
+
+.col 
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(184, 184, 184);
+    margin-top: -40px;
+    align-items: center;
+}
+
+.h2
+{
+    color: #333;
+    text-align: center;
+}
+
+.col1   
+{
+    width: 80%;
+    position: absolute;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+.header
+{
+    padding: 1 rem 2 rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+}
+.nav .logo
+{
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.header .nav a{
+    font-size: 1 rem;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+.header .nav a:hover{
+    color: #333;
+}
+.header .nav_bt{
+    display: none;
+}
+
+@media(max-width:768px)
+{
+    .header
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .nav 
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        overflow:hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    .header .nav a
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .header .nav_bt
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        height: 0;
+        cursor: pointer;
+    }
+    .header .nav_bt .bare
+    {
+        height: 3px;
+        width: 30px;
+        background-color: #000;
+        margin: 3px 0;
+    }
+    .header .nav_bt .bare
+    {
+        background-color: #fff;
+    }
+
+    .header .nav_bt .bare 
+    {
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+}

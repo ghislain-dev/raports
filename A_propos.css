@@ -1,0 +1,22 @@
+.navig{
+    width: 100%;
+    height:   50px;
+    background-color: darkkhaki;
+    display: flex;
+    border-radius: 20px;
+}
+ul{
+   
+    margin-top: 10px;
+    display: flex;
+}
+.menu
+{
+    margin-left: 70%;
+    display: flex;
+}
+li
+{
+    margin: 10px;
+    display: flex;
+}
